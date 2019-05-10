@@ -11,8 +11,27 @@ html, body {
 	right: 0;
 	top: 0;
 	bottom: 0;
+	font-size: 3vh;
 }
 
-h1 {
+.presentation .slide > * {
 	text-align: center;
+}
+
+.presentation h1 {
+	font-size: 10vh;
+}
+
+.presentation h2 {
+	font-size: 6vh;
+}
+
+.presentation p {
+	font-size: 4vh;
+}
+
+.presentation footer {
+	position: fixed;
+	bottom: 0;
+	padding: 50px;
 }

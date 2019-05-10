@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 const Slideset_ = ({ children, i, slideset }) => {
 	return <div className="slideset" style={{ display: i === slideset ? 'block' : 'none' }}>
 	{
-		children.map((child, i) => cloneElement(child, { key: i, i }))
+		React.Children.toArray(children).map((child, i) => cloneElement(child, { key: i, i }))
 	}
 	</div>;
 };

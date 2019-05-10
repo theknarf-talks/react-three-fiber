@@ -1,6 +1,19 @@
 import { createStore } from 'redux'
 import reducers from './ducks'
 
-const store = createStore(reducers);
+export default (preloadedState) => {
 
-export default store;
+	const store = createStore(
+		reducers,
+		preloadedState,
+	);
+
+	if(module.hot) {
+		module.hot.accept('./ducks', () => {
+			const newRootReducer = require('./ducks').default;
+			store.replaceReducer(newRootReducer);
+		});
+	}
+
+	return store;
+}
