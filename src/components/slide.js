@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { cloneElement } from 'react';
+import { connect } from 'react-redux';
 
-const Slide = ({ children }) =>
-	<div className="slide">
+const Slideset_ = ({ children, i, slideset }) => {
+	return <div className="slideset" style={{ display: i === slideset ? 'block' : 'none' }}>
+	{
+		children.map((child, i) => cloneElement(child, { key: i, i }))
+	}
+	</div>;
+};
+
+export const Slideset = connect(
+	/* mapStateToProps */ ({ slideset }) => ({ slideset })
+)(Slideset_);
+
+const Slide_ = ({ children, i, slide }) =>
+	<div className="slide" style={{ display: i === slide ? 'block' : 'none' }}>
 	{ children }
 	</div>;
 
-export default Slide;
+export const Slide = connect(
+	/* mapStateToProps */ ({ slide }) => ({ slide })
+)(Slide_);

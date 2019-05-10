@@ -2,7 +2,8 @@ import * as THREE from 'three/src/Three'
 import React from 'react'
 import { Canvas } from 'react-three-fiber'
 import Presentation from './components/presentation';
-import Slide from './components/slide';
+import { Slideset, Slide } from './components/slide';
+import SlideInfo from './components/slide_info';
 
 const Thing = ({ vertices, color }) =>
 	<group ref={ref => console.log('we have access to the instance')}>
@@ -26,11 +27,17 @@ const Thing = ({ vertices, color }) =>
 const App = () =>
 	<Presentation>
 		<Canvas>
-			<Thing vertices={[[-1, 0, 0], [0, 1, 0], [1, 0, 0], [0, -1, 0], [-1, 0, 0]]} />
+		{/* <Thing vertices={[[-1, 0, 0], [0, 1, 0], [1, 0, 0], [0, -1, 0], [-1, 0, 0]]} /> */}
 		</Canvas>
-		<Slide>
-			<h1> Slide 1 </h1>
-		</Slide>
+		<Slideset i={0}>
+			<Slide>
+				<h1> Slide 1 </h1>
+			</Slide>
+			<Slide>
+				<h1> Slide 2 </h1>
+			</Slide>
+		</Slideset>
+		<SlideInfo />
 	</Presentation>;
 
 export default App;

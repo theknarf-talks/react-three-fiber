@@ -33,6 +33,18 @@ export const nextSlideset   = () => ({ type: NEXT_SLIDESET   });
 export const prevSlideset   = () => ({ type: PREV_SLIDESET   });
 export const nextSlide      = () => ({ type: NEXT_SLIDE      });
 export const prevSlide      = () => ({ type: PREV_SLIDE      });
-export const fullscreen     = () => ({ type: FULLSCREEN      });
-export const exitFullscreen = () => ({ type: EXIT_FULLSCREEN });
 export const jumpToStart    = () => ({ type: JUMP_TO_START });
+
+export const fullscreen     = () => {
+	const el = document.documentElement,
+			rfs = el.requestFullscreen
+				|| el.webkitRequestFullScreen
+				|| el.mozRequestFullScreen
+				|| el.msRequestFullscreen;
+
+	rfs.call(el);
+
+	return { type: FULLSCREEN };
+}
+
+export const exitFullscreen = () => ({ type: EXIT_FULLSCREEN });

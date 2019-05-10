@@ -35,7 +35,7 @@ const Presentation = ({ children, dispatch }) => {
 		function listener(event) {
 			const ret = keyMapping
 				.find( ({ key, ctrlKey = false }) =>
-					key == event.keyCode && ctrlKey === event.ctrlKey
+					key === event.keyCode && ctrlKey === event.ctrlKey
 				);
 
 			if(typeof ret !== 'undefined' && typeof ret.action !== 'undefined') {
