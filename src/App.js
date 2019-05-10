@@ -4,6 +4,7 @@ import { Canvas } from 'react-three-fiber'
 import Presentation from './components/presentation';
 import { Slideset, Slide } from './components/slide';
 import SlideInfo from './components/slide_info';
+import Stamp from './components/2s_stamp';
 
 const Thing = ({ vertices, color }) =>
 	<group ref={ref => console.log('we have access to the instance')}>
@@ -26,6 +27,7 @@ const Thing = ({ vertices, color }) =>
 
 const App = () =>
 	<Presentation>
+		<Stamp />
 		<Canvas>
 		{/* <Thing vertices={[[-1, 0, 0], [0, 1, 0], [1, 0, 0], [0, -1, 0], [-1, 0, 0]]} /> */}
 		</Canvas>

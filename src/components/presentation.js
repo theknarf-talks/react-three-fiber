@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
+import './presentation.css';
+
 import {
 	nextSlideset,
 	prevSlideset,
