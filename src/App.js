@@ -8,6 +8,14 @@ import Stamp from './components/2s_stamp';
 import Location from './components/location';
 import Highlight from 'react-highlight'
 import '../node_modules/highlight.js/styles/a11y-dark.css';
+import threejspng from './threejs.png';
+
+import img1 from './img/LDddjjC.gif';
+import img2 from './img/zrhe5Jc.gif';
+import img3 from './img/jemlXzE.gif';
+import img4 from './img/vjmDwpS.gif';
+import img5 from './img/tQi753C.gif';
+import img6 from './img/iFtjKHM.gif';
 
 const Thing = ({ vertices, color }) => {
 	const [ materialColor, setMaterialColor ] = useState('peachpuff');
@@ -51,14 +59,39 @@ const App = () =>
 				<h1> Links </h1>
 				<p> This talk: <Location asLink={true} withPathname={true} /> </p>
 				<p> GitHub: <Link href="https://github.com/theknarf-talks/react-three-fiber" /> </p>
+			</Slide>
+			<Slide>
+				<h1> Three.js </h1>
+				<p> <Link href="https://threejs.org/" /> </p>
+				<img alt="three.js" src={threejspng} height="400px" style={{ 'margin-left': '30vw' }}/>
+			</Slide>
+			<Slide>
+				<h1> React-three-fiber </h1>
 				<p> React-three-fiber: <Link href="https://github.com/drcmda/react-three-fiber" /> </p>
 			</Slide>
 			<Slide>
-				<h1> Examples </h1>
-				<p><Link href="https://codesandbox.io/embed/m7q0r29nn9" /></p>
-				<p><Link href="https://codesandbox.io/embed/jz9l97qn89" /></p>
-				<p><Link href="https://codesandbox.io/embed/kky7yk087v" /></p>
-				<p><Link href="https://codesandbox.io/embed/ly0oxkp899" /></p>
+				<h1> Example 1 </h1>
+				<a href="https://codesandbox.io/embed/m7q0r29nn9"><img alt="img1" src={img1} style={{ 'margin-left': '30vw' }}/></a>
+			</Slide>
+			<Slide>
+				<h1> Example 2 </h1>
+				<a href="https://codesandbox.io/embed/jz9l97qn89"><img alt="img2" src={img2} style={{ 'margin-left': '30vw' }}/></a>
+			</Slide>
+			<Slide>
+				<h1> Example 3 </h1>
+				<a href="https://codesandbox.io/embed/kky7yk087v"><img alt="img3" src={img3} style={{ 'margin-left': '30vw' }}/></a>
+			</Slide>
+			<Slide>
+				<h1> Example 4 </h1>
+				<a href="https://codesandbox.io/embed/ly0oxkp899"><img alt="img4" src={img4} style={{ 'margin-left': '30vw' }}/></a>
+			</Slide>
+			<Slide>
+				<h1> Example 5 </h1>
+				<a href="https://codesandbox.io/embed/9y8vkjykyy"><img alt="img5" src={img5} style={{ 'margin-left': '30vw' }}/></a>
+			</Slide>
+			<Slide>
+				<h1> Example 6 </h1>
+				<a href="https://codesandbox.io/embed/y3j31r13zz"><img alt="img6" src={img6} style={{ 'margin-left': '30vw' }}/></a>
 			</Slide>
 		</Slideset>
 		<Slideset i={1}>
