@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-three-fiber/precache-manifest.d5b2aa64e12bdcafb24d8d426c9bb3ef.js"
+  "/react-three-fiber/precache-manifest.dea4ac9b0bb15dd95ec2f43a39cae3ae.js"
 );
 
 self.addEventListener('message', (event) => {
