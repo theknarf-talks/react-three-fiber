@@ -61,6 +61,10 @@ const App = () =>
 				<p> GitHub: <Link href="https://github.com/theknarf-talks/react-three-fiber" /> </p>
 			</Slide>
 			<Slide>
+				<h1> React.js </h1>
+				<p>"A JavaScript library for building user interfaces"</p>
+			</Slide>
+			<Slide>
 				<h1> Three.js </h1>
 				<p> <Link href="https://threejs.org/" /> </p>
 				<img alt="three.js" src={threejspng} height="400px" style={{ 'margin-left': '30vw' }}/>
