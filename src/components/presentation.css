@@ -30,6 +30,11 @@ html, body {
 	font-size: 4vh;
 }
 
+.presentation ul {
+	text-align: left !important;
+	margin-left: 40vw;
+}
+
 .presentation footer {
 	position: fixed;
 	bottom: 0;

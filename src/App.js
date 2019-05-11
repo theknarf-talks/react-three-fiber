@@ -1,11 +1,13 @@
-import * as THREE from 'three/src/Three'
 import React, { useState } from 'react'
+import * as THREE from 'three/src/Three'
 import { Canvas } from 'react-three-fiber'
 import Presentation from './components/presentation';
 import { Slideset, Slide } from './components/slide';
 import SlideInfo from './components/slide_info';
 import Stamp from './components/2s_stamp';
 import Location from './components/location';
+import Highlight from 'react-highlight'
+import '../node_modules/highlight.js/styles/a11y-dark.css';
 
 const Thing = ({ vertices, color }) => {
 	const [ materialColor, setMaterialColor ] = useState('peachpuff');
@@ -62,6 +64,31 @@ const App = () =>
 		<Slideset i={1}>
 			<Slide>
 				<h1> Code </h1>
+				<Highlight className='JavaScript'>
+			   {
+					"import React, { useState } from 'react'\n" +
+					"import * as THREE from 'three/src/Three'\n" +
+					"import { Canvas } from 'react-three-fiber'"
+				}
+				</Highlight>
+			</Slide>
+			<Slide>
+				<Highlight className='JavaScript'>
+{`<Canvas>
+	<Thing vertices={[[-1, 0, 0], [0, 1, 0], [1, 0, 0], [0, -1, 0], [-1, 0, 0]]} />
+</Canvas>`}
+				</Highlight>
+			</Slide>
+		</Slideset>
+		<Slideset i={2}>
+			<Slide>
+				<h1> Use cases </h1>
+				<ul>
+					<li> Portifolio pages </li>
+					<li> Data visualization </li>
+					<li> Landingpages </li>
+					<li> Fancy presentations </li>
+				</ul>
 			</Slide>
 		</Slideset>
 		<footer>
