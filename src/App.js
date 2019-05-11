@@ -116,6 +116,30 @@ const App = () =>
 </Canvas>`}
 				</Highlight>
 			</Slide>
+			<Slide>
+				<Highlight className="JavaScript leftAlign">
+{`const Thing = ({ vertices, color }) => {
+  const [ materialColor, setMaterialColor ] = useState('peachpuff');
+  return <group>
+    <line>
+      <geometry
+        attach="geometry"
+        vertices={vertices.map(v => new THREE.Vector3(...v))}
+        onUpdate={self => (self.verticesNeedUpdate = true)}
+        />
+      <lineBasicMaterial attach="material" color="black" />
+    </line>
+    <mesh
+      onClick={() => setMaterialColor('peachpuff')}
+      onPointerOver={() => setMaterialColor('grey')}
+      onPointerOut={() => setMaterialColor('peachpuff')}>
+      <octahedronGeometry attach="geometry" />
+      <meshBasicMaterial attach="material" color={materialColor} opacity={0.5} transparent />
+    </mesh>
+  </group>;
+};`}
+				</Highlight>
+			</Slide>
 		</Slideset>
 		<Slideset i={2}>
 			<Slide>

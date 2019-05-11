@@ -40,3 +40,7 @@ html, body {
 	bottom: 0;
 	padding: 50px;
 }
+
+.presentation .leftAlign {
+	text-align: left !important;
+}
