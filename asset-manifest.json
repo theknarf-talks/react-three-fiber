@@ -1,17 +1,24 @@
 {
   "files": {
     "main.css": "/react-three-fiber/static/css/main.048ca99e.chunk.css",
-    "main.js": "/react-three-fiber/static/js/main.c28a0219.chunk.js",
-    "main.js.map": "/react-three-fiber/static/js/main.c28a0219.chunk.js.map",
+    "main.js": "/react-three-fiber/static/js/main.fcefc4b5.chunk.js",
+    "main.js.map": "/react-three-fiber/static/js/main.fcefc4b5.chunk.js.map",
     "runtime~main.js": "/react-three-fiber/static/js/runtime~main.d4b321a3.js",
     "runtime~main.js.map": "/react-three-fiber/static/js/runtime~main.d4b321a3.js.map",
     "static/css/2.2f5bb179.chunk.css": "/react-three-fiber/static/css/2.2f5bb179.chunk.css",
-    "static/js/2.37990bf5.chunk.js": "/react-three-fiber/static/js/2.37990bf5.chunk.js",
-    "static/js/2.37990bf5.chunk.js.map": "/react-three-fiber/static/js/2.37990bf5.chunk.js.map",
+    "static/js/2.b4b599c0.chunk.js": "/react-three-fiber/static/js/2.b4b599c0.chunk.js",
+    "static/js/2.b4b599c0.chunk.js.map": "/react-three-fiber/static/js/2.b4b599c0.chunk.js.map",
     "index.html": "/react-three-fiber/index.html",
-    "precache-manifest.440d2c121db48891e8f1d770f368a702.js": "/react-three-fiber/precache-manifest.440d2c121db48891e8f1d770f368a702.js",
+    "precache-manifest.d5b2aa64e12bdcafb24d8d426c9bb3ef.js": "/react-three-fiber/precache-manifest.d5b2aa64e12bdcafb24d8d426c9bb3ef.js",
     "service-worker.js": "/react-three-fiber/service-worker.js",
     "static/css/2.2f5bb179.chunk.css.map": "/react-three-fiber/static/css/2.2f5bb179.chunk.css.map",
-    "static/css/main.048ca99e.chunk.css.map": "/react-three-fiber/static/css/main.048ca99e.chunk.css.map"
+    "static/css/main.048ca99e.chunk.css.map": "/react-three-fiber/static/css/main.048ca99e.chunk.css.map",
+    "static/media/LDddjjC.gif": "/react-three-fiber/static/media/LDddjjC.c888c52f.gif",
+    "static/media/iFtjKHM.gif": "/react-three-fiber/static/media/iFtjKHM.91191fbd.gif",
+    "static/media/jemlXzE.gif": "/react-three-fiber/static/media/jemlXzE.3f3d15fd.gif",
+    "static/media/tQi753C.gif": "/react-three-fiber/static/media/tQi753C.f50d60c7.gif",
+    "static/media/threejs.png": "/react-three-fiber/static/media/threejs.b9c479bc.png",
+    "static/media/vjmDwpS.gif": "/react-three-fiber/static/media/vjmDwpS.6e6d671e.gif",
+    "static/media/zrhe5Jc.gif": "/react-three-fiber/static/media/zrhe5Jc.fc30028b.gif"
   }
 }
