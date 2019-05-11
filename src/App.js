@@ -87,7 +87,7 @@ const App = () =>
 			</Slide>
 			<Slide>
 				<h1> Example 4 </h1>
-				<a href="https://codesandbox.io/embed/ly0oxkp899"><img alt="img4" src={img4} style={{ 'margin-left': '30vw' }}/></a>
+				<a href="https://codesandbox.io/embed/ly0oxkp899"><img alt="img4" src={img4} style={{ 'margin-left': '30vw', 'height': '350px'}}/></a>
 			</Slide>
 			<Slide>
 				<h1> Example 5 </h1>
