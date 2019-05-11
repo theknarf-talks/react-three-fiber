@@ -2,6 +2,7 @@
   "name": "react-three-fibers-talk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://talks.theknarf.com/react-three-fiber/",
   "dependencies": {
     "babel-loader": "^8.0.5",
     "cannon": "^0.6.2",
