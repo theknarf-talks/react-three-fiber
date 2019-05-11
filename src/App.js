@@ -47,7 +47,7 @@ const App = () =>
 			</Slide>
 			<Slide>
 				<h1> Links </h1>
-				<p> This talk: <Location asLink={true} /> </p>
+				<p> This talk: <Location asLink={true} withPathname={true} /> </p>
 				<p> GitHub: <Link href="https://github.com/theknarf-talks/react-three-fiber" /> </p>
 				<p> React-three-fiber: <Link href="https://github.com/drcmda/react-three-fiber" /> </p>
 			</Slide>
@@ -65,7 +65,7 @@ const App = () =>
 			</Slide>
 		</Slideset>
 		<footer>
-			<Location />
+			<Location withPathname={true} />
 			<SlideInfo />
 		</footer>
 	</Presentation>;
