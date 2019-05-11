@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcf5068b3b88c3880b59cc25302beabd",
+    "revision": "d07b0c13a95c7d5ccde4f3174570da7d",
     "url": "/react-three-fiber/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-three-fiber/static/css/2.2f5bb179.chunk.css"
   },
   {
-    "revision": "3fe96da108762b27755f",
+    "revision": "b3119a6b1294184bbbf7",
     "url": "/react-three-fiber/static/css/main.048ca99e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-three-fiber/static/js/2.b4b599c0.chunk.js"
   },
   {
-    "revision": "3fe96da108762b27755f",
-    "url": "/react-three-fiber/static/js/main.a83c17cc.chunk.js"
+    "revision": "b3119a6b1294184bbbf7",
+    "url": "/react-three-fiber/static/js/main.251d3c00.chunk.js"
   },
   {
     "revision": "7a421608d112a5992078",
