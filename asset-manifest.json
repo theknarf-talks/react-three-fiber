@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.00511803.chunk.css",
-    "main.js": "/static/js/main.12823dfa.chunk.js",
-    "main.js.map": "/static/js/main.12823dfa.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.1a60ae5c.chunk.js": "/static/js/2.1a60ae5c.chunk.js",
-    "static/js/2.1a60ae5c.chunk.js.map": "/static/js/2.1a60ae5c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b509c1e114c6532cb6df6e5b1df12278.js": "/precache-manifest.b509c1e114c6532cb6df6e5b1df12278.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.00511803.chunk.css.map": "/static/css/main.00511803.chunk.css.map"
+    "main.css": "/react-three-fiber/static/css/main.00511803.chunk.css",
+    "main.js": "/react-three-fiber/static/js/main.12823dfa.chunk.js",
+    "main.js.map": "/react-three-fiber/static/js/main.12823dfa.chunk.js.map",
+    "runtime~main.js": "/react-three-fiber/static/js/runtime~main.d4b321a3.js",
+    "runtime~main.js.map": "/react-three-fiber/static/js/runtime~main.d4b321a3.js.map",
+    "static/js/2.1a60ae5c.chunk.js": "/react-three-fiber/static/js/2.1a60ae5c.chunk.js",
+    "static/js/2.1a60ae5c.chunk.js.map": "/react-three-fiber/static/js/2.1a60ae5c.chunk.js.map",
+    "index.html": "/react-three-fiber/index.html",
+    "precache-manifest.8443e539e8e8f5ee951108992d06f792.js": "/react-three-fiber/precache-manifest.8443e539e8e8f5ee951108992d06f792.js",
+    "service-worker.js": "/react-three-fiber/service-worker.js",
+    "static/css/main.00511803.chunk.css.map": "/react-three-fiber/static/css/main.00511803.chunk.css.map"
   }
 }
