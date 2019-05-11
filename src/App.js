@@ -51,6 +51,13 @@ const App = () =>
 				<p> GitHub: <Link href="https://github.com/theknarf-talks/react-three-fiber" /> </p>
 				<p> React-three-fiber: <Link href="https://github.com/drcmda/react-three-fiber" /> </p>
 			</Slide>
+			<Slide>
+				<h1> Examples </h1>
+				<p><Link href="https://codesandbox.io/embed/m7q0r29nn9" /></p>
+				<p><Link href="https://codesandbox.io/embed/jz9l97qn89" /></p>
+				<p><Link href="https://codesandbox.io/embed/kky7yk087v" /></p>
+				<p><Link href="https://codesandbox.io/embed/ly0oxkp899" /></p>
+			</Slide>
 		</Slideset>
 		<Slideset i={1}>
 			<Slide>
